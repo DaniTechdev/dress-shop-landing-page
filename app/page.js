@@ -8,26 +8,6 @@ import Hero from "./components/Hero/Hero";
 import Categories from "./components/Categories/Categories/Categories";
 import "./globals.css";
 
-// export default function Home() {
-//   return (
-//     <ThemeProvider>
-//       <Layout>
-//         <Hero />
-//         {/* We'll add the other sections here */}
-//         <section style={{ height: "100vh", padding: "2rem" }}>
-//           <div className="container">
-//             <h2>More sections coming...</h2>
-//             <p>
-//               Categories, Artistry, Mum & Me, Lookbook, and Testimonials will be
-//               implemented next.
-//             </p>
-//           </div>
-//         </section>
-//       </Layout>
-//     </ThemeProvider>
-//   );
-// }
-
 export default function Home() {
   return (
     <ThemeProvider>
