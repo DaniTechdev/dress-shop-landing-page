@@ -6,6 +6,8 @@ import Layout from "./components/Layouts/Layout";
 // import Hero from "../components/Hero/Hero";
 import Hero from "./components/Hero/Hero";
 import Categories from "./components/Categories/Categories/Categories";
+// import Trust from '../components/Trust/Trust';
+import Trust from "../app/components/Trust/Trust";
 import "./globals.css";
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
       <Layout>
         <Hero />
         <Categories />
+        <Trust />
         {/* We'll add the other sections here */}
         <section style={{ height: "50vh", padding: "2rem" }}>
           <div className="container">
